@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body {
+	background: #f4f4f4;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.news {
+	font-size: 30px;
+	font-weight: 550;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.detail {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.detail a{
+	max-width: 500px;
+	height: auto;
+}
+
+.detail a img {
+    width: 370px;
+    height: 230px;
+    float: left;
+    margin-right: 40px;
+}
+
+.detail-content {
+	width: 500px;
+	float: left;
+}
+.detail-content h3 {
+	margin-bottom: 20px;
+}
+
+.detail-content p {
+	margin-bottom: 20px;
+}
